@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body
+{
+  margin-top:0px;
+  font-family: "Goldman", sans-serif ;
+  color: black;
+  
+  background-color: whitesmoke;
+  background-image: linear-gradient(rgba(235,235, 235,.2) 1px,transparent 0),
+                    linear-gradient(rgba(235,235, 235,.2) 1px,transparent 0),
+                    linear-gradient(90deg,rgba(235,235, 235,.2) 1px,transparent 0),
+                    linear-gradient(90deg,rgba(235,235, 235,.2) 1px,transparent 0),
+                    linear-gradient(transparent 3px,whitesmoke 0,whitesmoke 94px,transparent 0);
+  background-size: 24px 24px,96px 96px,24px 24px,96px 96px,96px 96px,96px 96px;
+
+}
+
+
+
+#header{
+  margin-top: 0px;
+  border: 2px solid black; 
+  padding-top: 0px;
+  overflow: auto;
+}
+
+#navBar{
+  background: whitesmoke;
+  position: fixed; 
+  top: 0;
+  z-index: 1;
+  display: flex; 
+  width:100%; 
+  height: 60px;
+}
+
+#menu{
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: center;
+  
+}
+
+#menu a{
+  margin-right: 30px;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: "Goldman", sans-serif;
+}
+
+#menu a:hover
+{
+  color: skyblue; 
+
+
+}
+
+#signupContainer{
+  margin: 40px auto 0px;
+  border: 1px solid grey;
+  border-radius: 30px;
+  width: 50%; 
+  height: 570px;
+  background-color: rgb(255, 255, 255);
+
+  overflow: auto;
+}
+
+#left{ 
+  margin-right: 3px;
+  padding: 10px 0px 0px 20px;
+  width: 45%;
+  height: 100%;
+  float: left;
+}
+
+
+#leftForm h2{
+  font-family: Goldman;
+}
+
+#leftForm p{
+  margin-top: 0px;
+}
+
+/*form {
+  /*border: 3px solid #f1f1f1;*/
+  /*margin-top: 40px;*/
+
+
+/* Full-width input fields */
+ input[type=text],  input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  margin-right: 90px;
+  padding: 10px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  /*width: 50%; */
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+
+
+#right{
+  height: 100%;
+  width: 49%;
+
+  padding: 10px;
+
+  background-color: rgba(92, 225, 234, 0.5);
+  float: right;
+}
+
+#rightForm{
+  margin-top: 0px;
+}
+
+#rightForm h2{
+  font-family: Goldman;
+}
+
+#rightForm p{
+  margin-top: 0px;
+}
+
+#subheader{
+  margin-top: 20px;
+  /*border: 1px solid red; */
+  padding-top: 10px;
+  height: 125px;
+}
+
+#serviceLabelsContainer{
+  margin: 0px auto;
+  /*border: 1px solid green; */
+  text-align: center;
+  width: 70%;
+  height: 120px;
+}
+
+.circleImgs{
+  margin-right: 50px;
+  border: 1px solid grey;
+  border-radius: 50px;
+  width: 90px;
+  height: 90px;
+
+  background-color: rgba(92, 225, 234, 0.2);
+}
+
+.circleLabels{
+  margin-right: 50px;
+  margin-top: 0px;
+  /*border: 1px solid green; */
+  
+  width: 90px;
+
+  display: inline-block;
+  font-family: "Goldman", sans-serif ;
+}
+
+.footer {
+  margin-top: 20px;
+  border-top: 1px solid rgba( 0, 0, 0, 0.5);
+  background-color: whitesmoke;
+  color: black;
+  height: 170px;
+  font-family: "Goldman", sans-serif ;
+
+}
+
+#footerContainer{
+  margin: 0px auto;
+ /* border: 1px solid black; */
+
+  width: 70%;
+}
+
+#footerContainer h3{
+  font-family: sans-serif ;
+}
+
+#footer-section-about{
+  margin-bottom: 0px;
+  
+  padding-left: 100px;
+  width: 33.33%;
+  float: left;
+}
+
+#footer-section-about p{
+  font-size: 12px;
+}
+
+#footer-section-quick-links{
+  margin-bottom: 0px;
+  padding-left: 100px;
+  width: 33.33%;
+  float: left;
+}
+
+#footer-section-quick-links a{
+  color: black;
+  text-decoration: underline;
+}
+
+#footer-section-contact-us{
+  margin-bottom: 0px;
+  padding-left: 100px;
+  text-decoration: underline;
+  
+  float: left;
+}
+
+
+
+
+
